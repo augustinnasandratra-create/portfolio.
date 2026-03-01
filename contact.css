@@ -117,4 +117,63 @@ body{
 
 .presentation ul li{
     line-height: 40px;
+
 }
+@media screen and (max-width:700px) {  
+    *{
+        scrollbar-width: none;
+    }
+    
+    .lien h1{
+        font-size: 45px;
+        margin-left: 20px;
+    }
+
+    .lien ul{
+        position: absolute;
+        display: flex;
+        margin-top: 1200px;
+        gap: 10px;
+        margin-left: 60px;
+    }
+
+    .presentation{
+        position: absolute;
+        left: -100px;
+        width: 550px;
+        margin-top: 60px;
+    }
+
+    .presentation h3{
+        padding: 10px 20px;
+        margin-left: 220px;
+        margin-bottom: 20px;
+        width: 90px;
+    }
+
+    .presentation ul{
+        padding: 10px 20px;
+        margin-left: -10px;
+        width: 170px;
+        font-size: 23px;
+    }
+
+    .presentation ul li a{
+        cursor: text;
+        position: absolute;
+        margin: 0 0 0 10px;
+    }
+
+}
+
+        font-size: 23px;
+    }
+
+    .presentation ul li a{
+        cursor: text;
+        position: absolute;
+        margin: 0 0 0 10px;
+    }
+
+}
+
